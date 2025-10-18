@@ -70,3 +70,42 @@ nav a.active {
   color: blue;
   font-weight: bold;
 }
+
+.news-title {
+  color: #000;
+  text-decoration: none;
+}
+.news-title:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.guest-rating {
+  cursor: not-allowed !important;
+  opacity: 0.6;
+}
+
+.guest-rating:hover {
+  background-color: transparent !important;
+  border-color: #6c757d !important;
+  color: #6c757d !important;
+}
+
+.rating-btn.active {
+  border-width: 2px;
+  font-weight: bold;
+}
+
+.rating-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.rating-section {
+  font-size: 0.9rem;
+}
+
+.rating-count {
+  margin-left: 0.3rem;
+  font-weight: 500;
+}

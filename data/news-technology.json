@@ -1,0 +1,206 @@
+{
+  "status": "ok",
+  "totalResults": 42,
+  "articles": [
+    {
+      "source": { "id": null, "name": "SamMobile" },
+      "author": "Abid Iqbal Shaik",
+      "title": "First real-life Galaxy S26 Ultra photo leaks, and something looks different - SamMobile",
+      "description": "While there were doubts about whether a Galaxy S26+ exists or not, one thing has always been certain: the Galaxy S26 series will include the usual Ultra model. Leaks have suggested that it will take a design cue from the Galaxy S25 Edge and Galaxy Z Fold 7 by…",
+      "url": "https://www.sammobile.com/news/samsung-galaxy-s26-ultra-case-photo-leak/",
+      "urlToImage": "https://www.sammobile.com/wp-content/uploads/2025/04/Galaxy-S25-Ultra-review-design-2-1200x675.jpg",
+      "publishedAt": "2025-10-16T09:42:00Z",
+      "content": "While there were doubts about whether a Galaxy S26+ exists or not, one thing has always been certain: the Galaxy S26 series will include the usual Ultra model. Leaks have suggested that it will take … [+939 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Push Square" },
+      "author": "Sammy Barker",
+      "title": "Ninja Gaiden, Dead or Alive Legend Tomonobu Itagaki Has Passed Away - Push Square",
+      "description": "\"I kept winning\"",
+      "url": "https://www.pushsquare.com/news/2025/10/ninja-gaiden-dead-or-alive-legend-tomonobu-itagaki-has-passed-away",
+      "urlToImage": "https://images.pushsquare.com/eee1f7fedadd0/large.jpg",
+      "publishedAt": "2025-10-16T08:00:00Z",
+      "content": "Legendary Ninja Gaiden and Dead or Alive director, the eternally sunglassed Tomonobu Itagaki, has passed away.\r\nA post on Facebook first broke the news, but it has since been corroborated by James Mi… [+1315 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Android Authority" },
+      "author": null,
+      "title": "Breaking: Samsung has reportedly cancelled the Galaxy S26 Edge, here's why - Android Authority",
+      "description": "A new report suggests Samsung has canceled the Galaxy S26 Edge due to poor sales of its predecessor, the Galaxy S25 Edge.",
+      "url": "https://www.androidauthority.com/samsung-galaxy-s26-edge-cancelled-report-3607637/",
+      "urlToImage": "https://www.androidauthority.com/wp-content/uploads/2025/09/Samsung-Galaxy-S26-Edge-Render_3-scaled.jpg",
+      "publishedAt": "2025-10-16T07:01:35Z",
+      "content": "<ul><li>A new report from South Korea suggests Samsung has cancelled the Edge line due to significantly lower-than-expected sales.</li><li>According to the report, there will not be a Galaxy S26 Edge… [+3387 chars]"
+    },
+    {
+      "source": { "id": null, "name": "ZDNet" },
+      "author": "Maria Diaz",
+      "title": "Roku might've just solved the biggest problem with home TV streaming - here's how - ZDNET",
+      "description": "Your favorite city is also getting an interactive update.",
+      "url": "https://www.zdnet.com/home-and-office/home-entertainment/roku-mightve-just-solved-the-biggest-problem-with-home-tv-streaming-heres-how/",
+      "urlToImage": "https://www.zdnet.com/a/img/resize/d4b66186045321c7697e3423f936df2cc899c764/2025/05/05/369c550c-7117-4c04-ab58-a4627d676ce5/3.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "publishedAt": "2025-10-15T23:30:00Z",
+      "content": "Maria Diaz/ZDNET\r\nFollow ZDNET: Add us as a preferred source on Google.\r\nZDNET's key takeaways\r\n<ul><li>New Roku upgrades will be free to all current customers. </li><li>The upgrades include an AI-en… [+3880 chars]"
+    },
+    {
+      "source": { "id": null, "name": "9to5google.com" },
+      "author": null,
+      "title": "What do you think of YouTube’s new video player redesign? [Poll] - 9to5Google",
+      "description": null,
+      "url": "https://9to5google.com/2025/10/15/what-do-you-think-of-youtubes-new-video-player-redesign-poll/",
+      "urlToImage": null,
+      "publishedAt": "2025-10-15T23:00:00Z",
+      "content": null
+    },
+    {
+      "source": { "id": "bloomberg", "name": "Bloomberg" },
+      "author": "Mark Gurman",
+      "title": "Apple’s Head of ChatGPT-Like AI Search Effort to Leave for Meta - Bloomberg.com",
+      "description": "The Apple Inc. executive leading an effort to develop AI-driven web search is stepping down, marking the latest in a string of high-profile exits from the company’s artificial intelligence division.",
+      "url": "https://www.bloomberg.com/news/articles/2025-10-15/apple-s-newly-tapped-head-of-chatgpt-like-ai-search-effort-to-leave-for-meta",
+      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iwvc_lfDNONI/v1/1200x800.jpg",
+      "publishedAt": "2025-10-15T22:57:51Z",
+      "content": "The Apple Inc. executive leading an effort to develop AI-driven web search is stepping down, marking the latest in a string of high-profile exits from the companys artificial intelligence division.\r\n… [+347 chars]"
+    },
+    {
+      "source": { "id": null, "name": "9to5Mac" },
+      "author": "Ryan Christoffel",
+      "title": "Apple Intelligence has 20+ brand new features in iOS 26, here’s the full list - 9to5Mac",
+      "description": "Apple Intelligence is getting 20+ brand new features in iOS 26, here’s the full list of everything coming this fall to compatible iPhones.",
+      "url": "https://9to5mac.com/2025/10/15/apple-intelligence-new-features-in-ios-26-full-list/",
+      "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2025/08/ios-26-apple-intelligence.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2025-10-15T20:54:00Z",
+      "content": "Apple Intelligence may not yet include the major Siri upgrades that were promised, but there are a ton of other new features that just arrived in iOS 26. Heres everything new.\r\nIn iOS 18, Apple Intel… [+2322 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Thegamepost.com" },
+      "author": null,
+      "title": "Destiny 2 Has Already Reversed a Ton of Edge of Fate Changes, Here’s Everything That’s Been Rolled Back (and What’s Coming in Renegades) - The Game Post",
+      "description": "After three months, Bungie’s already walked back a ton of Edge of Fate changes in Destiny 2, and with Renegades launching soon, even more changes are on the way.",
+      "url": "https://thegamepost.com/destiny-2-reversed-edge-of-fate-changes-renegades/",
+      "urlToImage": "https://thegamepost.com/wp-content/uploads/2025/10/destiny-2-reversed-edge-of-fate-changes-renegades-57.webp",
+      "publishedAt": "2025-10-15T20:49:49Z",
+      "content": "After three months, Bungies already walked back a ton of Edge of Fate changes in Destiny 2, and with Renegades launching soon, even more changes are on the way.\r\nWhen Edge of Fate launched in July, B… [+3769 chars]"
+    },
+    {
+      "source": { "id": "ars-technica", "name": "Ars Technica" },
+      "author": "Eric Berger",
+      "title": "Once unthinkable, NASA and Lockheed now consider launching Orion on other rockets - Ars Technica",
+      "description": "“We’re trying to crawl, then walk, then run into our reuse strategy.”…",
+      "url": "https://arstechnica.com/space/2025/10/once-unthinkable-nasa-and-lockheed-now-consider-launching-orion-on-other-rockets/",
+      "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2025/03/jsc2025e016293large-1152x648.jpg",
+      "publishedAt": "2025-10-15T20:22:24Z",
+      "content": null
+    },
+    {
+      "source": { "id": null, "name": "Testingcatalog.com" },
+      "author": "Alexey Shabanov",
+      "title": "Gemini 3.0 Pro upgrade notice appears as Google nears public release - testingcatalog.com",
+      "description": "Google prepares to upgrade users to Gemini 3.0 Pro on its official site, hinting at an upcoming rollout with advanced performance for developers.",
+      "url": "https://www.testingcatalog.com/gemini-3-0-pro-upgrade-notice-appears-as-google-nears-public-release/",
+      "urlToImage": "https://www.testingcatalog.com/content/images/size/w1200/2025/10/Google-Gemini-10-15-2025_09_31_PM.jpg",
+      "publishedAt": "2025-10-15T20:20:32Z",
+      "content": "Googles gradual unveiling of Gemini 3.0 Pro has reached a new stage, as the official Gemini website now displays a clear disclaimer stating users have been upgraded to 3.0 Pro, our smartest model yet… [+1856 chars]"
+    },
+    {
+      "source": { "id": null, "name": "9to5google.com" },
+      "author": "Abner Li",
+      "title": "Google rolling out Android 16 QPR2 Beta 3 for Pixel - 9to5Google",
+      "description": "The Android 16 Beta Program should be nearing completion with QPR2 Beta 3 for Google Pixel devices now available.",
+      "url": "http://9to5google.com/2025/10/15/android-16-qpr2-beta-3-pixel/",
+      "urlToImage": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2025/09/Android-16-QPR1-logo-7.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2025-10-15T20:04:00Z",
+      "content": "The Android 16 Beta Program should be nearing completion with QPR2 Beta 3 for Google Pixel devices now available.\r\nHeres everything new in Android 16 QPR2 Beta 3 [Gallery]\r\nQuarterly Platform Release… [+2847 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Disneydreamlightvalley.com" },
+      "author": null,
+      "title": "Catch up on the Disney Dreamlight Valley 2025 Showcase Stream! - Disney Dreamlight Valley",
+      "description": "Disney Dreamlight Valley",
+      "url": "https://disneydreamlightvalley.com/en/news/2025ShowcaseHighlights",
+      "urlToImage": "https://ddv.assets.gameloft.com/assets/DDV_25380_S_Showcase2025_Blog_Assets_A_01_OFF_03_FB_LS_1920x1080_EN_188d871c3a.png",
+      "publishedAt": "2025-10-15T18:23:55Z",
+      "content": "Howdy Valley Villagers!\r\nToday, we had the pleasure of previewing our upcoming free update, as well as offer a sneak peek at the wonders you might expect from the game in 2026! We also had opportunit… [+5376 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Pure Xbox" },
+      "author": "Fraser Gilbert",
+      "title": "Sarah Bond Shows Off Where Microsoft Is 'Prototyping For The Next Generation Of Xbox' - Pure Xbox",
+      "description": "\"This is where the team is actually designing, prototyping and testing\"",
+      "url": "https://www.purexbox.com/news/2025/10/sarah-bond-shows-off-where-microsoft-is-prototyping-for-the-next-generation-of-xbox",
+      "urlToImage": "https://images.purexbox.com/61dfe9e731608/large.jpg",
+      "publishedAt": "2025-10-15T18:04:46Z",
+      "content": "There's been a lot of talk recently about the next generation of Xbox and whether Microsoft might even cancel its next-gen console(s), but a new walkthrough of the hardware labs suggests Team Xbox is… [+1491 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Axiomspace.com" },
+      "author": null,
+      "title": "Axiom Space Appoints Dr. Jonathan Cirtain as CEO and President - Axiom Space",
+      "description": "Oct 15, 2025 -",
+      "url": "https://www.axiomspace.com/release/jonathan-cirtain-ceo",
+      "urlToImage": "https://cdn.prod.website-files.com/671fb31e0ed79c76c93e1019/68efa99eb571323960df5fdd_Logo_Blue.webp",
+      "publishedAt": "2025-10-15T18:01:39Z",
+      "content": "HOUSTON, Oct. 15, 2025 Today, Axiom Space announced the appointment of Dr. Jonathan Cirtain as Chief Executive Officer, while he continues as President, marking a strategic leadership change to advan… [+2095 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Kotaku" },
+      "author": "Zack Zwiezen",
+      "title": "New PvZ Replanted Trailer Is Very Cringey And Not Good - Kotaku",
+      "description": "I never want to hear from SpudBoi or NoCapShroom ever again, thank you very much",
+      "url": "https://kotaku.com/new-plants-vs-zombies-remastered-replanted-trailer-cringe-fake-twitch-stream-2000635689",
+      "urlToImage": "https://kotaku.com/app/uploads/2025/10/pvsszzz-1200x675.jpg",
+      "publishedAt": "2025-10-15T17:39:02Z",
+      "content": "When I hit play on EA’s new “deep dive” trailer for the upcoming Plants vs Zombies Replanted, I didn’t expect to be presented with a fake stream featuring two actors pretending to be hip and cool con… [+2166 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Notebookcheck.net" },
+      "author": "Daniel Zlatev",
+      "title": "OnePlus 15 lands first phone display with native 165 Hz refresh rate at 1.5K resolution - Notebookcheck",
+      "description": "Display maker BOE has unveiled the full specifications list of the next-gen OLED panel that is installed on the OnePlus 15 flagship. It is a flexible OLED screen with record beating refresh rate and brightness combo, alongside numerous other virtues.",
+      "url": "https://www.notebookcheck.net/OnePlus-15-lands-first-phone-display-with-native-165-Hz-refresh-rate-at-1-5K-resolution.1139055.0.html",
+      "urlToImage": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/oneplus-15-display-bezels.jpg",
+      "publishedAt": "2025-10-15T17:28:00Z",
+      "content": "Display making juggernaut BOE already teased that the upcoming OnePlus 15 flagship will sport one of the best phone screens out there, and the official unveiling of its third-gen X3 panel didn't disa… [+3791 chars]"
+    },
+    {
+      "source": { "id": null, "name": "GameSpot" },
+      "author": "Darryn Bonthuys",
+      "title": "PlayStation Plus Extra/Premium Games For October 2025 Include One Of The Best Horror Games Of All Time - GameSpot",
+      "description": "We hope you're wearing your brown pants, because these new additions to the PS Plus Game Catalog are frightfully good.",
+      "url": "https://www.gamespot.com/gallery/playstation-plus-extra-premium-games-for-october-2025-include-one-of-the-best-horror-games-of-all-time/2900-7135/",
+      "urlToImage": "https://www.gamespot.com/a/uploads/screen_kubrick/1601/16018044/4585753-ps-plus-october-2025.jpg",
+      "publishedAt": "2025-10-15T17:16:53Z",
+      "content": "GameSpot may receive revenue from affiliate and advertising partnerships for sharing this content and from purchases through links."
+    },
+    {
+      "source": { "id": null, "name": "Nintendoeverything.com" },
+      "author": "Brian",
+      "title": "Pokemon Legends: Z-A datamine reveals returning Pokemon and new Mega Evolutions for DLC - Nintendo Everything",
+      "description": "Pokemon Legends: Z-A has started to launch (at least in some regions), and now that the full game is here, we have a look at returning Pokemon and forms as well as Pokemon receiving new forms in the upcoming Mega Dimension DLC. This comes thanks to a new data…",
+      "url": "https://nintendoeverything.com/pokemon-legends-z-a-datamine-reveals-returning-pokemon-and-new-mega-evolutions-for-dlc/",
+      "urlToImage": "https://nintendoeverything.com/wp-content/uploads/Pokemon-Legends-Z-A-DLC-returning-Pokemon-new-Mega-Evolutions.jpg",
+      "publishedAt": "2025-10-15T17:14:30Z",
+      "content": "Pokemon Legends: Z-A has started to launch (at least in some regions), and now that the full game is here, we have a look at returning Pokemon and forms as well as Pokemon receiving new forms in the … [+902 chars]"
+    },
+    {
+      "source": { "id": "bloomberg", "name": "Bloomberg" },
+      "author": "Chris Welch",
+      "title": "Apple Launches iPad Pro, Vision Pro and MacBook Pro With M5 Chip - Bloomberg.com",
+      "description": "Apple Inc. rolled out updated versions of the iPad Pro, Vision Pro and entry-level MacBook Pro with the new M5 chip, refreshing the products just ahead of the all-important holiday season.",
+      "url": "https://www.bloomberg.com/news/articles/2025-10-15/apple-updates-ipad-pro-macbook-pro-vision-pro-with-its-m5-chip",
+      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iSztvLqOEtzQ/v0/1200x661.jpg",
+      "publishedAt": "2025-10-15T16:12:22Z",
+      "content": "Apple Inc. rolled out updated versions of the iPad Pro, Vision Pro and entry-level MacBook Pro with the new M5 chip, refreshing the products just ahead of the all-important holiday season.\r\nAll three… [+249 chars]"
+    },
+    {
+      "source": { "id": "ars-technica", "name": "Ars Technica" },
+      "author": "Ryan Whitwam",
+      "title": "Google’s AI videos get a big upgrade with Veo 3.1 - Ars Technica",
+      "description": "Veo 3.1 is coming to the Gemini app and the Flow filmmaking tool.",
+      "url": "https://arstechnica.com/google/2025/10/googles-ai-videos-get-a-big-upgrade-with-veo-3-1/",
+      "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/Veo-3.1-1152x648.png",
+      "publishedAt": "2025-10-15T16:00:51Z",
+      "content": null
+    }
+  ]
+}

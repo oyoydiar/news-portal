@@ -2,103 +2,154 @@
 
 namespace app\models;
 
-class User extends \yii\base\BaseObject implements \yii\web\IdentityInterface
+use Yii;
+use yii\db\ActiveRecord;
+use yii\web\IdentityInterface;
+
+class User extends ActiveRecord implements IdentityInterface
 {
-    public $id;
-    public $username;
-    public $password;
-    public $authKey;
-    public $accessToken;
+  const MAX_LOGIN_ATTEMPTS = 5;
+  const BLOCK_DURATION = '+5 minutes';
+  const MIN_PASSWORD_LENGTH = 12;
 
-    private static $users = [
-        '100' => [
-            'id' => '100',
-            'username' => 'admin',
-            'password' => 'admin',
-            'authKey' => 'test100key',
-            'accessToken' => '100-token',
-        ],
-        '101' => [
-            'id' => '101',
-            'username' => 'demo',
-            'password' => 'demo',
-            'authKey' => 'test101key',
-            'accessToken' => '101-token',
-        ],
+  public static function tableName()
+  {
+    return 'users';
+  }
+
+  public function rules()
+  {
+    return [
+      [['name', 'email', 'password_hash'], 'required'],
+      [['name', 'email'], 'string', 'max' => 255],
+      [['email'], 'email'],
+      [['email'], 'unique'],
+      [['failed_login_count'], 'integer'],
+      [['created_at', 'blocked_until'], 'safe'],
     ];
+  }
 
+  public function attributeLabels()
+  {
+    return [
+      'id' => 'ID',
+      'name' => 'Name',
+      'email' => 'Email',
+      'password_hash' => 'Password Hash',
+      'failed_login_count' => 'Failed Login Count',
+      'blocked_until' => 'Blocked Until',
+      'created_at' => 'Created At',
+    ];
+  }
 
-    /**
-     * {@inheritdoc}
-     */
-    public static function findIdentity($id)
-    {
-        return isset(self::$users[$id]) ? new static(self::$users[$id]) : null;
+  public static function findIdentity($id)
+  {
+    return static::findOne($id);
+  }
+
+  public static function findIdentityByAccessToken($token, $type = null)
+  {
+    return null;
+  }
+
+  public function getId()
+  {
+    return $this->id;
+  }
+
+  public function getAuthKey()
+  {
+    return null;
+  }
+
+  public function validateAuthKey($authKey)
+  {
+    return false;
+  }
+
+  public static function findByEmail($email)
+  {
+    return static::findOne(['email' => $email]);
+  }
+
+  public function validatePassword($password)
+  {
+    return Yii::$app->security->validatePassword($password, $this->password_hash);
+  }
+
+  public function setPassword($password)
+  {
+    $this->password_hash = Yii::$app->security->generatePasswordHash($password);
+  }
+
+  public function isBlocked()
+  {
+    return $this->blocked_until && strtotime($this->blocked_until) > time();
+  }
+
+  public function getRemainingBlockTime()
+  {
+    if (!$this->blocked_until) {
+      return null;
+    }
+    
+    $remaining = strtotime($this->blocked_until) - time();
+    return $remaining > 0 ? $remaining : 0;
+  }
+
+  public function handleFailedLogin()
+  {
+    $this->failed_login_count++;
+    
+    if ($this->failed_login_count >= self::MAX_LOGIN_ATTEMPTS) {
+      $this->blocked_until = date('Y-m-d H:i:s', strtotime(self::BLOCK_DURATION));
+      $this->failed_login_count = 0;
+    }
+    
+    return $this->save();
+  }
+
+  public function resetLoginAttempts()
+  {
+    $this->failed_login_count = 0;
+    $this->blocked_until = null;
+    return $this->save();
+  }
+
+  public static function validatePasswordStrength($password)
+  {
+    if (strlen($password) < self::MIN_PASSWORD_LENGTH) {
+      return 'Password must be at least ' . self::MIN_PASSWORD_LENGTH . ' characters long.';
     }
 
-    /**
-     * {@inheritdoc}
-     */
-    public static function findIdentityByAccessToken($token, $type = null)
-    {
-        foreach (self::$users as $user) {
-            if ($user['accessToken'] === $token) {
-                return new static($user);
-            }
-        }
-
-        return null;
+    if (!preg_match('/[A-Z]/', $password)) {
+      return 'Password must contain at least 1 capital letter.';
     }
 
-    /**
-     * Finds user by username
-     *
-     * @param string $username
-     * @return static|null
-     */
-    public static function findByUsername($username)
-    {
-        foreach (self::$users as $user) {
-            if (strcasecmp($user['username'], $username) === 0) {
-                return new static($user);
-            }
-        }
-
-        return null;
+    if (!preg_match('/[0-9]/', $password)) {
+      return 'Password must contain at least 1 number.';
     }
 
-    /**
-     * {@inheritdoc}
-     */
-    public function getId()
-    {
-        return $this->id;
+    if (!preg_match('/[!@#$%^&*()\-_=+{};:,<.>]/', $password)) {
+      return 'Password must contain at least 1 symbol.';
     }
 
-    /**
-     * {@inheritdoc}
-     */
-    public function getAuthKey()
-    {
-        return $this->authKey;
-    }
+    return null;
+  }
 
-    /**
-     * {@inheritdoc}
-     */
-    public function validateAuthKey($authKey)
-    {
-        return $this->authKey === $authKey;
-    }
+  public static function createUser($name, $email, $password)
+  {
+    $user = new self();
+    $user->name = strtoupper($name);
+    $user->email = $email;
+    $user->setPassword($password);
+    $user->created_at = date('Y-m-d H:i:s');
+    
+    return $user;
+  }
 
-    /**
-     * Validates password
-     *
-     * @param string $password password to validate
-     * @return bool if password provided is valid for current user
-     */
-    public function validatePassword($password)
-    {
-        return $this->password === $password;
-    }
+  public static function isEmailTaken($email)
+  {
+    return self::find()->where(['email' => $email])->exists();
+  }
 }

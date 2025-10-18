@@ -31,3 +31,81 @@ tests/_support/_generated
 
 #vagrant folder
 /.vagrant
+
+# Environment files (except .env.example)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data and logs
+/runtime/*
+!/runtime/.gitkeep
+*.log
+yii.bat
+yii_test.bat
+
+# Web assets cache
+/web/assets/*
+!/web/assets/.gitkeep
+
+# Local configuration files
+/config/main-local.php
+/config/params-local.php
+/config/test-local.php
+/config/test_db.php
+
+# Composer
+composer.lock
+
+# Editor and IDE files
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-*
+
+# OS generated files
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Prettier config (tidak boleh di-push)
+.prettierrc
+.prettierrc.*
+*.prettierrc
+
+# Coverage reports
+coverage/
+.nyc_output
+
+# Dependency directories
+/bower_assets/
+
+# Yarn
+.yarn/
+.yarnrc.yml
+
+# Package lock files (optional - pilih salah satu)
+package-lock.json
+# yarn.lock
+
+# Local development
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Backup files
+*.backup
+*.bak
+
+# Temporary files
+*.tmp
+*.temp

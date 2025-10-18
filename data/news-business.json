@@ -1,0 +1,208 @@
+{
+  "status": "ok",
+  "totalResults": 62,
+  "articles": [
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "The Wall Street Journal",
+      "title": "Nestlé Plan to Slash 16,000 Jobs Sparks Share Jump - The Wall Street Journal",
+      "description": null,
+      "url": "https://www.wsj.com/business/nestle-layoffs-restructure-nesn-stock-369e6a91",
+      "urlToImage": null,
+      "publishedAt": "2025-10-16T12:05:00Z",
+      "content": null
+    },
+    {
+      "source": { "id": null, "name": "CNBC" },
+      "author": "Hayley Cuccinello",
+      "title": "Few heirs keep their parents' wealth advisors — most wealthy benefactors don't mind - CNBC",
+      "description": "Almost half of wealthy givers say their heirs don't have a relationship with their advisors, according to a new survey.",
+      "url": "https://www.cnbc.com/2025/10/16/heirs-parents-wealth-advisor-cerulli-study.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/108212526-1760546872812-gettyimages-896395700-ab2_1319.jpeg?v=1760547417&w=1920&h=1080",
+      "publishedAt": "2025-10-16T11:30:01Z",
+      "content": "A version of this article first appeared in CNBC's Inside Wealth newsletter with Robert Frank, a weekly guide to the high-net-worth investor and consumer. Sign up to receive future editions, straight… [+3163 chars]"
+    },
+    {
+      "source": { "id": null, "name": "CNBC" },
+      "author": "Pia Singh",
+      "title": "Stock futures rise as earnings season heats up: Live updates - CNBC",
+      "description": "Stocks saw choppy trading day on Wednesday, but the S&P 500 ended in the green as big banks turned in strong earnings.",
+      "url": "https://www.cnbc.com/2025/10/15/stock-market-today-live-updates.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/108212072-1760473621432-gettyimages-2241056161-mms27692_vd3plpda.jpeg?v=1760473689&w=1920&h=1080",
+      "publishedAt": "2025-10-16T10:32:00Z",
+      "content": "U.S. stock futures were higher Thursday after strong bank earnings shifted investor focus from risks both at home and abroad as a U.S. government shutdown heads into its third week and escalating tra… [+2830 chars]"
+    },
+    {
+      "source": { "id": "cnn", "name": "CNN" },
+      "author": "Elisabeth Buchwald, Matt Egan",
+      "title": "Why Jamie Dimon is warning of ‘cockroaches’ in the US economy - CNN",
+      "description": "When a pair of overleveraged Bear Stearns hedge funds imploded in 2007 when American stocks were at all-time highs many shrugged the episode off. Later, it became apparent that those bankruptcies were among the first shoes to drop in an epic meltdown that wou…",
+      "url": "https://www.cnn.com/2025/10/16/business/jamie-dimon-us-economy-cockroaches",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2239334197.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2025-10-16T09:00:52Z",
+      "content": "Many Americans shrugged off the implosion of a pair of overleveraged Bear Stearns hedge funds in 2007. Stocks were at record highs, after all. But later it became apparent that those bankruptcies wer… [+3996 chars]"
+    },
+    {
+      "source": { "id": "cbs-news", "name": "CBS News" },
+      "author": "Mary  Cunningham",
+      "title": "Is the cinnamon on your shelf safe? The FDA says these 16 brands contain elevated levels of lead. - CBS News",
+      "description": "The FDA has identified 16 brands of ground cinnamon with elevated levels of lead that it says should be thrown out. Here's what to know.",
+      "url": "https://www.cbsnews.com/news/lead-cinnamon-fda-recall-2025/",
+      "urlToImage": "https://assets3.cbsnewsstatic.com/hub/i/r/2025/10/15/ca892c1e-df95-4ae4-b8a9-cf94f3936600/thumbnail/1200x630/d19064c5d02c7cf9d48c0baf637b30ea/gettyimages-2234035201.jpg",
+      "publishedAt": "2025-10-16T09:00:17Z",
+      "content": "Certain brands of one of the country's most popular spices, cinnamon, could be hazardous to your health.\r\nIn the last week, the Food and Drug Administration has identified four additional makers of g… [+3706 chars]"
+    },
+    {
+      "source": { "id": null, "name": "NPR" },
+      "author": "Maria Aspan",
+      "title": "Health insurance premiums are going up next year — unless you work at these companies - NPR",
+      "description": "As U.S. health insurance costs rise, some companies are paying for all of their workers' premiums. It's a big expense — but they say it pays off.",
+      "url": "https://www.npr.org/2025/10/16/nx-s1-5561051/health-care-costs-premiums-companies-cost-of-living",
+      "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5333x3000+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb4%2Fca%2Fdbf8d780416ea88b9c1d1f7a3905%2Fcost-of-living-health-care.jpg",
+      "publishedAt": "2025-10-16T09:00:00Z",
+      "content": "NPR's series Cost of Living: The Price We Pay is examining what's driving price increases and how people are coping after years of stubborn inflation. How are higher prices changing the way you live?… [+5992 chars]"
+    },
+    {
+      "source": { "id": "bloomberg", "name": "Bloomberg" },
+      "author": "Debby Wu",
+      "title": "TSMC Profit Beats Estimates in Latest Sign of Robust AI Spending - Bloomberg.com",
+      "description": "Taiwan Semiconductor Manufacturing Co. hiked its projection for 2025 revenue growth for the second time this year, reinforcing hopes in the longevity of a global boom in AI spending.",
+      "url": "https://www.bloomberg.com/news/articles/2025-10-16/tsmc-profit-beats-estimates-in-latest-sign-of-robust-ai-spending",
+      "urlToImage": "https://assets.bwbx.io/s3/lightsaber/_next/static/media/social-tech.9caebdd1.jpg",
+      "publishedAt": "2025-10-16T06:29:00Z",
+      "content": "Taiwan Semiconductor Manufacturing Co. hiked its projection for 2025 revenue growth for the second time this year, reinforcing hopes in the longevity of a global boom in AI spending.\r\nTSMC, the go-to… [+322 chars]"
+    },
+    {
+      "source": { "id": "the-washington-post", "name": "The Washington Post" },
+      "author": "Kelly Kasulis Cho",
+      "title": "Unsafe amounts of lead found in some protein powders, report says - The Washington Post",
+      "description": "More than two-thirds of the 23 protein powders tested by Consumer Reports had lead levels exceeding the watchdog group’s daily intake safety standards.",
+      "url": "https://www.washingtonpost.com/health/2025/10/15/consumer-reports-protein-powder-lead/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/C3MIFPTL4CW3W77DRM4KR5JYTQ.JPG&w=1440",
+      "publishedAt": "2025-10-16T04:44:00Z",
+      "content": "More than a dozen protein powders tested for toxic metals were found to have unsafe or concerning amounts of lead, the nonprofit watchdog Consumer Reports said Tuesday, adding that the average lead l… [+68 chars]"
+    },
+    {
+      "source": { "id": null, "name": "DW (English)" },
+      "author": "Midhat Fatimah",
+      "title": "Titan sub imploded due to engineering flaws — NTSB report - DW",
+      "description": "The US National Transportation Safety Board found that Titan operator OceanGate did not adequately test the submersible and was unaware that it was damaged.",
+      "url": "https://www.dw.com/en/titan-sub-imploded-due-to-engineering-flaws-ntsb-report/a-74376583",
+      "urlToImage": "https://static.dw.com/image/66007166_6.jpg",
+      "publishedAt": "2025-10-16T03:28:20Z",
+      "content": "Faulty engineering caused the implosion of a private submersible during a 2023 expedition to the Titanic wreckage, the US National Transportation Safety Board (NTSB) said Wednesday.\r\nThe NTSB's final… [+2081 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Gvwire.com" },
+      "author": "Anthony W. Haddad",
+      "title": "YouTube Down for More Than a Hundred Thousand Users, Downdetector Shows - GV Wire",
+      "description": "YouTube experienced a major outage recently, with thousands reporting issues. Find out more about the YouTube down situation.",
+      "url": "https://gvwire.com/2025/10/15/youtube-down-for-more-than-a-hundred-thousand-users-downdetector-shows/",
+      "urlToImage": "https://gvwire.com/wp-content/uploads/2025/09/The-YouTube-app-logo-is-seen-on-a-smartphone-in-this-picture-illustration-taken-September-15-2017.-REUTERSDado-RuvicIllustration.jpg",
+      "publishedAt": "2025-10-16T01:07:30Z",
+      "content": "Update: Wednesday, 6 p.m., Oct. 15, 2025\r\nYouTube says that it has fixed an issue affecting video streaming services for users Wednesday afternoon.\r\nAt its peak, 366,172 users in the U.S. had reporte… [+884 chars]"
+    },
+    {
+      "source": { "id": null, "name": "FXStreet" },
+      "author": "FXStreet Team",
+      "title": "Australia’s Unemployment Rate jumps to 4.5% in September vs. 4.3% expected - FXStreet",
+      "description": "Australia’s Unemployment Rate climbed to 4.5% in September from 4.3% in August (revised from 4.2%), according to the official data released by the Australian Bureau of Statistics (ABS) on Thursday. The figure came in above the market consensus of 4.3%.",
+      "url": "https://www.fxstreet.com/news/australia-unemployment-rate-expected-to-edge-higher-in-september-signaling-cooling-labor-market-202510152030",
+      "urlToImage": "https://editorial.fxsstatic.com/images/i/Employment_queue_2_Large.png",
+      "publishedAt": "2025-10-16T01:00:26Z",
+      "content": "Australias Unemployment Rate climbed to 4.5% in September from 4.3% in August (revised from 4.2%), according to the official data released by the Australian Bureau of Statistics (ABS) on Thursday. Th… [+11353 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "The Wall Street Journal",
+      "title": "AI Data Centers, Desperate for Electricity, Are Building Their Own Power Plants - The Wall Street Journal",
+      "description": null,
+      "url": "https://www.wsj.com/business/energy-oil/ai-data-centers-desperate-for-electricity-are-building-their-own-power-plants-291f5c81",
+      "urlToImage": null,
+      "publishedAt": "2025-10-16T01:00:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "The Wall Street Journal",
+      "title": "Resorts World, Bally’s, Steve Cohen Submit Supplemental New York Casino Applications - The Wall Street Journal",
+      "description": null,
+      "url": "https://www.wsj.com/business/hospitality/resorts-world-ballys-and-steve-cohen-submit-supplemental-new-york-casino-applications-791dbbf1",
+      "urlToImage": null,
+      "publishedAt": "2025-10-15T23:00:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "The Wall Street Journal",
+      "title": "HPE Expects Revenue Growth to Slow in Next Fiscal Year - The Wall Street Journal",
+      "description": null,
+      "url": "https://www.wsj.com/business/earnings/hpe-expects-revenue-growth-to-slow-in-next-fiscal-year-a4cd3400",
+      "urlToImage": null,
+      "publishedAt": "2025-10-15T22:56:00Z",
+      "content": null
+    },
+    {
+      "source": { "id": null, "name": "Outkick.com" },
+      "author": null,
+      "title": "Order Mix-Up At Texas Whataburger Results In A Bloody Brawl & Seven Arrests - OutKick",
+      "description": null,
+      "url": "https://www.outkick.com/culture/order-mix-up-texas-whataburger-results-bloody-brawl-seven-arrests",
+      "urlToImage": null,
+      "publishedAt": "2025-10-15T21:40:50Z",
+      "content": "Want to access this website or page?\r\nAsk for permission"
+    },
+    {
+      "source": { "id": null, "name": "TheStreet" },
+      "author": "Moz Farooque",
+      "title": "Salesforce CEO’s next move could rattle $150 billion tech giant - Yahoo Finance",
+      "description": "Say what you want about Salesforce CEO Marc Benioff, but one thing is certain: He rarely mutes the mic. The veteran tech leader is perhaps the most vocal...",
+      "url": "https://www.thestreet.com/technology/salesforce-ceos-next-move-could-rattle-22-year-old-software-giant",
+      "urlToImage": "https://media.zenfs.com/en/thestreet_881/1d5dc90e63735a301fb5af2eb49ba0af",
+      "publishedAt": "2025-10-15T21:33:00Z",
+      "content": "Say what you want about Salesforce CEO Marc Benioff, but one thing is certain: He rarely mutes the mic.\r\nThe veteran tech leader is perhaps the most vocal advocate for AI, championing it as the most … [+4871 chars]"
+    },
+    {
+      "source": { "id": "al-jazeera-english", "name": "Al Jazeera English" },
+      "author": "Al Jazeera",
+      "title": "Canada threatens Stellantis with legal action over moving production to US - Al Jazeera",
+      "description": "Stellantis announced a $13bn investment in the US, which will see Jeep Compass production move from Canada to the US.",
+      "url": "https://www.aljazeera.com/economy/2025/10/15/canada-threatens-stellantis-with-legal-action-over-moving-production-to-us",
+      "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/10/AP22122692367555-1760561372.jpg?resize=1920%2C1440",
+      "publishedAt": "2025-10-15T21:16:49Z",
+      "content": "Canada has threatened legal action against carmaker Stellantis NV over what Ottawa says is the companys unacceptable plan to shift production of one model to a United States plant.\r\nOn Wednesday, Min… [+1933 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Financial Times" },
+      "author": "Stephen Foley",
+      "title": "EY revenue rises as AI consulting offsets slowdown in deal work - Financial Times",
+      "description": "Big Four firm’s Parthenon business combining executive strategy with due diligence on deals shrank 0.4% globally",
+      "url": "https://www.ft.com/content/70bb8a63-ee8c-4ba5-a588-cd8ed83cc8df",
+      "urlToImage": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F15aa7597-9e72-43e8-9d46-f1eeaf1eedbb.jpg?source=next-barrier-page",
+      "publishedAt": "2025-10-15T21:05:31Z",
+      "content": "FT Digital Edition: todays FT, cover to cover on any device. This subscription does not include access to ft.com or the FT App.\r\n<ul><li>FT Digital Edition: our digitised print edition</li><li>Global… [+201 chars]"
+    },
+    {
+      "source": { "id": "bloomberg", "name": "Bloomberg" },
+      "author": "Sarah Holder, Rachael Lewis-Krisky",
+      "title": "What’s Behind Gold’s Historic Rally - Bloomberg.com",
+      "description": "Today on the Big Take: Gold thrives in times of uncertainty. But the scale and the speed of today’s rally exposes deeper concerns about the global economy.",
+      "url": "https://www.bloomberg.com/news/articles/2025-10-15/federal-reserve-pressure-us-china-tensions-send-gold-silver-to-historic-highs",
+      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/imON4g5_J30k/v0/1200x800.jpg",
+      "publishedAt": "2025-10-15T20:46:05Z",
+      "content": "Never miss an episode. Follow The Big Take daily podcast today.\r\nGold always shines during uncertain times, but escalating tensions between the US and China and signals from the Federal Reserve that … [+96 chars]"
+    }
+  ]
+}

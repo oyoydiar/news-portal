@@ -1,4 +1,14 @@
 <?php
+$dotenvFile = __DIR__ . '/../.env.local';
+if (file_exists($dotenvFile)) {
+  foreach (file($dotenvFile, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES) as $line) {
+    if (strpos($line, '=') !== false) {
+      [$key, $value] = explode('=', $line, 2);
+      $_ENV[trim($key)] = trim($value);
+      putenv(trim($key) . '=' . trim($value));
+    }
+  }
+}
 
 // comment out the following two lines when deployed to production
 defined('YII_DEBUG') or define('YII_DEBUG', true);
